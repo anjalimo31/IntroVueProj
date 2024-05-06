@@ -2,7 +2,8 @@
   <body>
     
     <h1> {{ title }} </h1>
-    <img :src="logoURL" :alt="logoCaption" width="200" height="200" />
+    <img :src="logoURL" :alt="logoCaption" width="400" height="400" />
+    <br>
     <h2>Add a new task</h2>
 
     <div>
@@ -103,12 +104,18 @@ export default {
   text-align: left;
   color: #2c3e50;
   margin-top: 60px;
+  font-size: 1.5em;
 }
 
 .strikeout {
   text-decoration: line-through;
 }
 
-body {background-color: azure;}
+
+
+body {background-color: rgb(206, 250, 250);}
 h1 {background-color: rgb(172, 243, 243); text-align: center;}
+h2 {background-color: rgb(158, 230, 230);}
+h3 {background-color: rgb(133, 207, 207);}
+img {float: right; border: 16px rgb(102, 206, 206) solid}
 </style>
